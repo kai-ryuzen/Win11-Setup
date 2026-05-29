@@ -6,3 +6,4 @@ Personal Windows 11 setup, tweaks and configuration files.
 |Browser|Zen|[Zen Browser](./Zen-Browser)|
 |Taskbar|MyDockFinder|[MyDockFinder](./MyDockFinder)|
 |Explorer|ExplorerBlurMica|[ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica)|
+|StartMenu|Flow-Launcher|[FlowLauncher](./Flow-Launcher)|
