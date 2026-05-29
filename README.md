@@ -8,3 +8,4 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Explorer | ExplorerBlurMica | [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) |
 | StartMenu | Flow-Launcher | [FlowLauncher](./Flow-Launcher) |
 | Window Tweaks | Windhawk | [Windhawk](./Windhawk/) |
+| Window Tiling | GlazeWM | [GlazeWM](./GlazeWM/) |
