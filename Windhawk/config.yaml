@@ -1,0 +1,152 @@
+RenderingMod:
+  ThemeBackground: 1
+  SysColors: 0
+  AccentColorControls: 0
+type: acrylicblur
+AccentBlurBehind: 3A1E1E2E
+FlyoutsEffects: 1
+ImmersiveDarkTitle: 1
+ExtendFrame: 1
+CornerOption: default
+RainbowSpeed: 1
+TitlebarColor:
+  ColorTitlebar: 0
+  RainbowTitlebar: 0
+  titlerbarstyles_active: FF0000
+  titlerbarstyles_inactive: 00FFFF
+TitlebarTextColor:
+  ColorTitlebarText: 0
+  RainbowTextColor: 0
+  titlerbarcolorstyles_active: FF0000
+  titlerbarcolorstyles_inactive: 00FFFF
+BorderColor:
+  ColorBorder: 0
+  RainbowBorder: 0
+  borderstyles_active: FF0000
+  borderstyles_inactive: 00FFFF
+RuledPrograms:
+  - target: mspaint.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: none
+    AccentBlurBehind: ''
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: default
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
+  - target: Dock_64.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: none
+    AccentBlurBehind: ''
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: default
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
+  - target: zen.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: none
+    AccentBlurBehind: ''
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: default
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
+  - target: Notepad.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: none
+    AccentBlurBehind: ''
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: default
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
+  - target: 7zG.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    type: none
+    AccentBlurBehind: ''
+    ImmersiveDarkTitle: 0
+    ExtendFrame: 0
+    CornerOption: default
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
