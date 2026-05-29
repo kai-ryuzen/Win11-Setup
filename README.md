@@ -9,3 +9,4 @@ Personal Windows 11 setup, tweaks and configuration files.
 | StartMenu | Flow-Launcher | [FlowLauncher](./Flow-Launcher) |
 | Window Tweaks | Windhawk | [Windhawk](./Windhawk/) |
 | Window Tiling | GlazeWM | [GlazeWM](./GlazeWM/) |
+| Widgets | Rainmeter | [Rainmeter](./Widgets) |
