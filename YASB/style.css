@@ -13,7 +13,7 @@
     border-radius: 8px;
 }
 .widget {
-	padding: 0 10px;
+	padding: 0 7px;
 	margin: 0;
 }
 .widget .label {
@@ -267,30 +267,134 @@
     margin-top: -20px;
 }
 
-.komorebi-active-layout {
-    padding: 0
+/* ============== WIFI WIDGET STYLING ============== */
+.wifi-widget .icon {
+    color: #89b4fa;
+    transition: color 0.2s ease;
 }
-.komorebi-workspaces .offline-status {
-    color: #cdd6f4;
+
+/* WiFi Popup Menu */
+.wifi-menu {
+    font-family: "JetBrainsMono NFP";
+    background-color: rgba(30, 30, 46, 0.35);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    border: 1px solid rgba(141, 188, 255, 0.25);
+    min-width: 360px;
+    /* Enlarged to fit ~5-6 networks with no scroll */
+    min-height: 220px;
+    max-height: 520px;
+    display: flex;
+    flex-direction: column;
+}
+.wifi-menu .progress-bar {
+    color: #89b4fa;
+    max-height: 2px;
+}
+
+/* Menu Header */
+.wifi-menu .header {
+    font-family: "JetBrainsMono NFP";
     font-size: 12px;
-    padding: 0 0 0 4px;
-    font-weight: 600;
+    font-weight: 500;
+    padding: 10px 12px;
+    background-color: rgba(30, 30, 46, 0.5);
+    color: #cdd6f4;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
-.komorebi-workspaces .ws-btn {
+
+/* Error Message */
+.wifi-menu .error-message {
+    font-family: "JetBrainsMono NFP";
+    font-size: 12px;
+    padding: 10px 12px;
+    background-color: rgba(237, 135, 150, 0.2);
+    color: #ed8796;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* WiFi List — Scroll only when exceeding max height */
+.wifi-menu .wifi-list {
+    background-color: transparent;
+    flex: 1;
+    overflow-y: auto;
+}
+.wifi-menu .wifi-item {
+    min-height: 34px;
+    padding: 4px 12px;
+    margin: 2px 4px;
+    border-radius: 6px;
+}
+.wifi-menu .wifi-item:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+.wifi-menu .wifi-item[active=true] {
+    background-color: rgba(137, 180, 250, 0.2);
+    border-radius: 6px;
+}
+
+/* Item Text & Icons */
+.wifi-menu .wifi-item .icon {
+    font-size: 18px;
+    color: #89b4fa;
+    margin-right: 8px;
+}
+.wifi-menu .wifi-item .name,
+.wifi-menu .wifi-item .strength,
+.wifi-menu .wifi-item .status {
+    font-family: "JetBrainsMono NFP";
+    font-size: 11px;
+    color: #cdd6f4;
+}
+
+/* Connect Button */
+.wifi-menu .wifi-item .connect {
+    background-color: rgba(137, 180, 250, 0.12);
+    color: #89b4fa;
     border: none;
-    background-color: #6c7086;
-    margin: 0 3px;
-    height: 9px;
-    width: 9px;
+    border-radius: 4px;
+    padding: 3px 16px;
+    font-family: "JetBrainsMono NFP";
+    font-size: 10px;
+}
+.wifi-menu .wifi-item .connect:hover {
+    background-color: rgba(137, 180, 250, 0.25);
+}
+
+/* Menu Footer */
+.wifi-menu .footer {
+    font-family: "JetBrainsMono NFP";
+    font-size: 10px;
+    padding: 8px 12px;
+    margin-top: 4px;
+    color: #9399b2;
+    background-color: rgba(30, 30, 46, 0.5);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.wifi-menu .footer .settings-button,
+.wifi-menu .footer .refresh-icon {
+    color: #cdd6f4;
+    font-size: 14px;
+    background: transparent;
+    border: none;
     border-radius: 4px;
 }
-.komorebi-workspaces .ws-btn:hover {
+.wifi-menu .footer .refresh-icon:hover,
+.wifi-menu .footer .settings-button:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+/* Bluetooth Widget - Catppuccin Mocha (Icon Style) */
+.bluetooth-widget {
+    font-family: "JetBrainsMono NFP";
+    padding: 0 4px;
+}
+.bluetooth-widget .label {
+    font-size: 10px;
     color: #cdd6f4;
 }
-.komorebi-workspaces .ws-btn.populated {
-    background-color: #b4befe;
-}
-.komorebi-workspaces .ws-btn.active {
-    background-color: #89b4fa;
-    width: 36px;
+.bluetooth-widget .icon {
+    color: #ddb6f2; /* Catppuccin Lavender — dedicated for Bluetooth */
 }
