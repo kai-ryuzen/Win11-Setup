@@ -13,14 +13,15 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Terminal | Windows Terminal | [Terminal](./Terminal) |
 | System Moinitor | Fastfetch | [Fastfetch](./FastFetch) |
 -----
-Other
-|Component|Tool Name|Refrence Link|
-|:---|:---|:---|
-| Font | JetBrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
----
 ## Daily Essential Apps
 | Component | Tool Name | Official Website |
 | :--- | :--- | :--- |
 | Screenshot/Recorder | ShareX | [ShareX](https://getsharex.com/) |
 | Image Viewer | Irfan Viewe | [IrfanView](https://www.irfanview.com/) |
 | Download Manager | ABDownload Manager | [ABDownload Manager](https://abdownloadmanager.com/) |
+---
+Other
+|Component|Tool Name|Refrence Link|
+|:---|:---|:---|
+| Font | JetBrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
+---
