@@ -21,3 +21,4 @@ Other
 ## Daily Essential Apps
 | Component | Tool Name | Official Website |
 | :--- | :--- | :--- |
+| Screenshot/ recorder | ShareX | [ShareX](https://getsharex.com/) |
