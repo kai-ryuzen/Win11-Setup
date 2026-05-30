@@ -18,3 +18,7 @@ Other
 |Component|Tool Name|Refrence Link|
 |---|---|---|
 | Font | JetBrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
+---
+## Daily Essential Apps
+| Component | Tool Name | Official Website |
+| :--- | :--- | :--- |
