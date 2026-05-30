@@ -1,7 +1,7 @@
 # Win11-Setup
 Personal Windows 11 setup, tweaks and configuration files.
 
-##Desktop Custom Tweaks
+## Desktop Custom Tweaks
 |Component|Tool Name|Reference Link|
 |:---|:---|:---|
 | Browser | Zen | [Zen Browser](./Zen-Browser) |
@@ -21,7 +21,7 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Image Viewer | IrfanView | [IrfanView](https://www.irfanview.com/) |
 | Download Manager | AB Download Manager | [AB Download Manager](https://abdownloadmanager.com/) |
 ---
-##Other
+## Other
 |Component|Tool Name|Reference Link|
 |:---|:---|:---|
 | Font | JetBrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
