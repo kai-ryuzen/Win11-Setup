@@ -23,4 +23,4 @@ Other
 | :--- | :--- | :--- |
 | Screenshot/Recorder | ShareX | [ShareX](https://getsharex.com/) |
 | Image Viewer | Irfan Viewe | [IrfanView](https://www.irfanview.com/) |
-| Download Manager | ABDownload Manager | ABDownload Manager(https://abdownloadmanager.com/) |
+| Download Manager | ABDownload Manager | [ABDownload Manager](https://abdownloadmanager.com/) |
