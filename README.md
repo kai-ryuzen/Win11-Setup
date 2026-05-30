@@ -5,17 +5,19 @@ Personal Windows 11 setup, tweaks and configuration files.
 A complete archive of my custom Windows 11 desktop setup. All modification tools, daily essential applications, and system assets are split into organized folders. Each directory holds its matching configuration files and a dedicated notes document with install steps, customization tips, and official download links to fully replicate this environment on a fresh Windows install.
 
 ## Desktop Custom Tweaks
-|Component        |Tool Name         |Reference Link                                                    |
-|:--------------  |:-----------------|:-----------------------------------------------------------------|
-| Browser         | Zen              | [Zen Browser](./Zen-Browser)                                     | 
-| Taskbar         | MyDockFinder     | [MyDockFinder](./MyDockFinder)                                   |
-| Explorer        | ExplorerBlurMica | [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) |
-| StartMenu       | Flow-Launcher    | [FlowLauncher](./Flow-Launcher)                                  |
-| Window Tweaks   | Windhawk         | [Windhawk](./Windhawk/)                                          |
-| Window Tiling   | GlazeWM          | [GlazeWM](./GlazeWM/)                                            |
-| Widgets         | Rainmeter        | [Rainmeter](./Widgets)                                           |
-| Terminal        | Windows Terminal | [Terminal](./Terminal)                                           |
-| System Monitor  | FastFetch        | [FastFetch](./FastFetch)                                         |
+|Component         |Tool Name         |Reference Link                                                    |
+|:-----------------|:-----------------|:-----------------------------------------------------------------|
+| Browser          | Zen              | [Zen Browser](./Zen-Browser)                                     | 
+| Taskbar          | MyDockFinder     | [MyDockFinder](./MyDockFinder)                                   |
+| Explorer         | ExplorerBlurMica | [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) |
+| StartMenu        | Flow-Launcher    | [FlowLauncher](./Flow-Launcher)                                  |
+| Window Tweaks    | Windhawk         | [Windhawk](./Windhawk/)                                          |
+| Window Tiling    | GlazeWM          | [GlazeWM](./GlazeWM/)                                            |
+| Widgets          | Rainmeter        | [Rainmeter](./Widgets)                                           |
+| Terminal         | Windows Terminal | [Terminal](./Terminal)                                           |
+| System Monitor   | FastFetch        | [FastFetch](./FastFetch)                                         |
+| Audio Visualizer | Cava             | [Cava](./Cava)                                                   |
+| Status Bar       | YASB             | [YASB](./YASB)
 ---
 ## Daily Essential Apps
 | Component           | Tool Name           | Official Website                                      |
