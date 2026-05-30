@@ -1,7 +1,8 @@
 # Win11-Setup
 Personal Windows 11 setup, tweaks and configuration files.
 
-|Component|Tool Name|Refrence Link|
+##Desktop Custom Tweaks
+|Component|Tool Name|Reference Link|
 |:---|:---|:---|
 | Browser | Zen | [Zen Browser](./Zen-Browser) |
 | Taskbar | MyDockFinder | [MyDockFinder](./MyDockFinder) |
@@ -17,11 +18,11 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Component | Tool Name | Official Website |
 | :--- | :--- | :--- |
 | Screenshot/Recorder | ShareX | [ShareX](https://getsharex.com/) |
-| Image Viewer | Irfan View | [IrfanView](https://www.irfanview.com/) |
-| Download Manager | ABDownload Manager | [ABDownload Manager](https://abdownloadmanager.com/) |
+| Image Viewer | IrfanView | [IrfanView](https://www.irfanview.com/) |
+| Download Manager | AB Download Manager | [AB Download Manager](https://abdownloadmanager.com/) |
 ---
-Other
-|Component|Tool Name|Refrence Link|
+##Other
+|Component|Tool Name|Reference Link|
 |:---|:---|:---|
 | Font | JetBrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
 ---
