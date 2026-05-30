@@ -1,0 +1,12 @@
+# Cava Audio Visualizer Notes
+Audio spectrum visualizer used with YASB status bar.
+
+## Installation
+Install via Winget:
+```powershell
+winget install cava
+
+Required Dependency
+Cava requires msvcr110.dll to run properly on Windows.
+Download the file from: https://www.dll-files.com/msvcr110.dll.html
+Place msvcr110.dll directly inside your Cava program directory
