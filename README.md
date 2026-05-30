@@ -13,6 +13,7 @@ Personal Windows 11 setup, tweaks and configuration files.
 |         |           |                        |
 -----
 Other
+
 |Component|Tool Name|Refrence Link|
-|---||---|---|
+|---|---|---|
 | Font | JetbrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
