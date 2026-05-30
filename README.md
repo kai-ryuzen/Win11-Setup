@@ -12,3 +12,4 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Widgets | Rainmeter | [Rainmeter](./Widgets) |
 |         |           |                        |
 
+-----
