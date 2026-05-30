@@ -11,6 +11,7 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Window Tiling | GlazeWM | [GlazeWM](./GlazeWM/) |
 | Widgets | Rainmeter | [Rainmeter](./Widgets) |
 | Terminal | Windows Terminal | [Terminal](./Terminal) |
+| System Moinitor | Fastfetch | [Fastfetch](./FastFetch) |
 -----
 Other
 
