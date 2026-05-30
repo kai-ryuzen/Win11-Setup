@@ -1,7 +1,7 @@
 # Zen Browser Customizations
 ## Account
 - Signed in with Firefox Account (syncs default extensions & settings)
-- Email: your-email@domain.com
+- Email: panchaldevraj325@gmail.com
 - Password: Stored locally in password manager / Windows Credential Manager (not saved in this repo)
 
 ## Active Extensions
