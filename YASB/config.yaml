@@ -37,19 +37,21 @@ bars:
       right: 3
     widgets:
       left: [
+        "power_menu",
         "glazewm_tiling_direction",
-        "glazewm_workspaces",      
-        "active_window"
+        "glazewm_workspaces",
       ]
       center: [
-        "clock"
+        "active_window"
       ]
       right: [
         "cava",
         "weather",
         "cpu",
         "memory",
-        # "wallpapers"
+        "bluetooth",
+        "wifi",
+        "clock"
         ]
 widgets:
   active_window:
@@ -70,13 +72,13 @@ widgets:
       label_alt: "{%I:%M:%S}"
       timezones: []
       callbacks:
-        on_left: ""
+        on_left: "do_nothing"
   weather:
     type: "yasb.weather.WeatherWidget"
     options:
       label: "<span>{icon}</span> {temp}"
       label_alt: "{location}: Min {min_temp}, Max {max_temp}, Humidity {humidity}"
-      api_key:  # Get your free API key from https://www.weatherapi.com/
+      api_key:  ec37291c91344eab83f73239263005 # Get your free API key from https://www.weatherapi.com/
       update_interval: 600
       hide_decimal: true
       location:  Khachrod 456224 # You can use "USA Los Angeles 90006" {COUNTRY CITY ZIP_CODE}, or just city.
@@ -97,14 +99,14 @@ widgets:
         thunderstormNight: "\ue338"
         default: "\uebaa"
       weather_card:
-        blur: True
-        round_corners: True
+        blur: true
+        round_corners: true
         round_corners_type: "normal"
         border_color: "System"
         alignment: "right"
         direction: "down"
         icon_size: 64
-        show_hourly_forecast: True # Set to False to disable hourly forecast
+        show_hourly_forecast: true # Set to False to disable hourly forecast
         time_format: "12h" # can be 12h or 24h
         hourly_point_spacing: 76
         hourly_icon_size: 32 # better to set 16, 32 or 64 for better quality
@@ -122,9 +124,9 @@ widgets:
     type: "yasb.power_menu.PowerMenuWidget"
     options:
       label: "\uf011"
-      uptime: True
-      blur: False
-      blur_background: True
+      uptime: true
+      blur: true
+      blur_background: true
       animation_duration: 200
       button_row: 5
       buttons:
@@ -154,6 +156,49 @@ widgets:
   #         lazy_load_fadein: 400
   #         image_corner_radius: 20
   #         enable_cache: true
+  wifi:
+    type: "yasb.wifi.WifiWidget"
+    options:
+      label: "<span>{wifi_icon}</span>"
+      label_alt: "{wifi_name} {wifi_strength}%"
+      update_interval: 5000
+      get_exact_wifi_strength: true
+      callbacks:
+        on_left: "toggle_menu"
+        on_middle: "exec cmd.exe /c start ms-settings:network"
+        on_right: "toggle_label"
+      ethernet_label: "<span>{wifi_icon}</span>"
+      ethernet_label_alt: "<span>{wifi_icon}</span> {ip_addr}"
+      ethernet_icon: "\ueba9"
+      wifi_icons: [
+        "\udb82\udd2e",
+        "\udb82\udd1f",
+        "\udb82\udd22",
+        "\udb82\udd25",
+        "\udb82\udd28"
+      ]
+      menu_config:
+        blur: true
+        round_corners: true
+        round_corners_type: "normal"
+        border_color: "#8dbcff"
+        alignment: "right"
+        direction: "down"
+        offset_top: 6
+        offset_left: 0
+        wifi_icons_secured: [
+          "\ue670",
+          "\ue671",
+          "\ue672",
+          "\ue673"
+        ]
+        wifi_icons_unsecured: [
+          "\uec3c",
+          "\uec3d",
+          "\uec3e",
+          "\uec3f"
+        ]
+
   cava:
     type: "yasb.cava.CavaWidget"
     options:
@@ -226,6 +271,21 @@ widgets:
         color: "black"
         radius: 3
         offset: [ 1, 1 ]
+  bluetooth:
+    type: "yasb.bluetooth.BluetoothWidget"
+    options:
+      label: "<span>{icon}</span>"
+      label_alt: "{device_name}"
+      label_no_device: "No devices"
+      max_length: 18
+      icons:
+        bluetooth_on: "\udb80\udcaf"
+        bluetooth_off: "\udb80\udcb2"
+        bluetooth_connected: "\udb80\udcb1"
+      callbacks:
+        on_left: "exec cmd.exe /c start ms-settings:bluetooth"
+        on_right: "toggle_label"
+
   memory:
     type: "yasb.memory.MemoryWidget"
     options:
@@ -238,7 +298,7 @@ widgets:
         position: left
         color: "#cba6f7"
         background_color: "#1e1e2e"
-        animation: True
+        animation: true
       animation:
         enabled: true
         type: FadeInOut
@@ -249,48 +309,49 @@ widgets:
         low: 25
         medium: 50
         high: 90
-  komorebi_workspaces:
-    type: "komorebi.workspaces.WorkspaceWidget"
-    options:
-      label_offline: "\u23fc Offline"
-      label_workspace_btn: "\u000d"
-      label_workspace_active_btn: "\u000d"
-      label_workspace_populated_btn: "\u000d"
-      label_default_name: "{index}"
-      label_zero_index: false
-      hide_empty_workspaces: false
-      hide_if_offline: true
-      animation: true
-  komorebi_active_layout:
-    type: "komorebi.active_layout.ActiveLayoutWidget"
-    options:
-      hide_if_offline: false
-      label: "{icon}"
-      layouts:
-        [
-          "bsp",
-          "columns",
-          "rows",
-          "grid",
-          "vertical_stack",
-          "horizontal_stack",
-          "ultrawide_vertical_stack",
-          "right_main_vertical_stack",
-        ]
-      layout_icons:
-        bsp: "BSP"
-        columns: "COLS"
-        rows: "ROWS"
-        grid: "GRID"
-        vertical_stack: "V-STACK"
-        horizontal_stack: "H-STACK"
-        ultrawide_vertical_stack: "W-STACK"
-        right_main_vertical_stack: "RMV-STACK"
-        monocle: "MONOCLE"
-        maximized: "MAX"
-        floating: "FLOATING"
-        paused: "PAUSED"
-      callbacks:
-        on_left: "next_layout"
-        on_middle: "toggle_monocle"
-        on_right: "prev_layout"
+  # komorebi_workspaces:
+  #   type: "komorebi.workspaces.WorkspaceWidget"
+  #   options:
+  #     label_offline: "\u23fc Offline"
+  #     label_workspace_btn: "\u000d"
+  #     label_workspace_active_btn: "\u000d"
+  #     label_workspace_populated_btn: "\u000d"
+  #     label_default_name: "{index}"
+  #     label_zero_index: false
+  #     hide_empty_workspaces: false
+  #     hide_if_offline: true
+  #     animation: true
+  # komorebi_active_layout:
+  #   type: "komorebi.active_layout.ActiveLayoutWidget"
+  #   options:
+  #     hide_if_offline: false
+  #     label: "{icon}"
+  #     layouts:
+  #       [
+  #         "bsp",
+  #         "columns",
+  #         "rows",
+  #         "grid",
+  #         "vertical_stack",
+  #         "horizontal_stack",
+  #         "ultrawide_vertical_stack",
+  #         "right_main_vertical_stack",
+  #       ]
+  #     layout_icons:
+  #       bsp: "BSP"
+  #       columns: "COLS"
+  #       rows: "ROWS"
+  #       grid: "GRID"
+  #       vertical_stack: "V-STACK"
+  #       horizontal_stack: "H-STACK"
+  #       ultrawide_vertical_stack: "W-STACK"
+  #       right_main_vertical_stack: "RMV-STACK"
+  #       monocle: "MONOCLE"
+  #       maximized: "MAX"
+  #       floating: "FLOATING"
+  #       paused: "PAUSED"
+  #     callbacks:
+  #       on_left: "next_layout"
+  #       on_middle: "toggle_monocle"
+  #       on_right: "prev_layout"
+
