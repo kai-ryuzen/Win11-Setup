@@ -21,4 +21,6 @@ Other
 ## Daily Essential Apps
 | Component | Tool Name | Official Website |
 | :--- | :--- | :--- |
-| Screenshot/ recorder | ShareX | [ShareX](https://getsharex.com/) |
+| Screenshot/Recorder | ShareX | [ShareX](https://getsharex.com/) |
+| Image Viewer | Irfan Viewe | [IrfanView](https://www.irfanview.com/) |
+| Download Manager | ABDownload Manager | ABDownload Manager(https://abdownloadmanager.com/) |
