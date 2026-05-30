@@ -17,7 +17,7 @@ Personal Windows 11 setup, tweaks and configuration files.
 | Component | Tool Name | Official Website |
 | :--- | :--- | :--- |
 | Screenshot/Recorder | ShareX | [ShareX](https://getsharex.com/) |
-| Image Viewer | Irfan Viewe | [IrfanView](https://www.irfanview.com/) |
+| Image Viewer | Irfan View | [IrfanView](https://www.irfanview.com/) |
 | Download Manager | ABDownload Manager | [ABDownload Manager](https://abdownloadmanager.com/) |
 ---
 Other
