@@ -18,7 +18,7 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 | System Monitor   | FastFetch           | [FastFetch](./FastFetch)                                         |
 | Audio Visualizer | Cava                | [Cava](./Cava)                                                   |
 | Status Bar       | YASB                | [YASB](./YASB)                                                   |
-| FSOS-X           | FSOS-X Dash Toolkit | [FSOS-X Dash Toolkit](./FSOS-X Dash Toolkit)                     |
+| FSOS-X           | FSOS-X Dash Toolkit | [FSOS-X Dash Toolkit](./FSOS-X-Dash-Toolkit)                     |
 ---
 ## Daily Essential Apps
 | Component           | Tool Name           | Official Website                                      |
