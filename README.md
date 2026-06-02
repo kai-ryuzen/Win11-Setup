@@ -32,4 +32,5 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 |Component|Tool Name                |Reference Link                                                                              |
 |:--------|:------------------------|:-------------                                                                              |
 | Font    | JetBrainsMono Nerd Font | [Nerd](https://github.com/ryanoasis/nerd-fonts/releases/latest/download/JetBrainsMono.zip) |
+| Cursor  | arlecchino              | [Cursor](./Cursor)
 ---
