@@ -1,0 +1,12 @@
+.shell powershell
+
+# Restart whkd
+alt + o : Stop-Process -Name whkd -Force; Start-Process whkd -WindowStyle Hidden
+
+# Windows Terminal (Alt + T)
+alt + t : Start-Process wt
+
+# Zen Browser (Alt + W)
+alt + w : Start-Process "C:\Program Files\Zen Browser\zen.exe"
+
+alt + n : Start-Process notepad.exe
