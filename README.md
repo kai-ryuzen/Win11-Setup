@@ -19,7 +19,8 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 | Audio Visualizer   | Cava                | [Cava](./Cava)                                                   |
 | Status Bar         | YASB                | [YASB](./YASB)                                                   |
 | System Tweak Suite | FSOS-X Dash Toolkit | [FSOS-X Dash Toolkit](./FSOS-X%20Dash%20Toolkit)                 |
-| Shorcuts           | whkd                | [whkd](./whkd/)
+| Shorcuts           | whkd                | [whkd](./whkd/)                                                  |
+| Context Menu       | Nilesoft Shell      | [Nilesoft Shell](./Nilesoft%2%Shell)                             |
 ---
 ## Daily Essential Apps
 | Component           | Tool Name           | Official Website                                      |
