@@ -6,12 +6,15 @@
 
 ## Active Extensions
 - Transparent Zen (UI + webpage transparency)
+- uBlock Origin (blocks ads)
+- AB Download Manager (download manager)
 
 ## Applied Mods
 - NoTopSites
 - SuperPins
 - TabTextSize
 - Transparent Zen
+- Better Find
 
 ## Windhawk Rule
 Process: `zen.exe`
