@@ -9,7 +9,7 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 |:-------------------|:--------------------|:-----------------------------------------------------------------|
 | Browser            | Zen                 | [Zen Browser](./Zen-Browser)                                     | 
 | Taskbar            | MyDockFinder        | [MyDockFinder](./MyDockFinder)                                   |
-| Explorer           | ExplorerBlurMica    | [ExplorerBlurMica](https://github.com/Maplespe/ExplorerBlurMica) |
+| Explorer           | ExplorerBlurMica    | [ExplorerBlurMica](./ExplorerBlurMica)                           |
 | StartMenu          | Flow-Launcher       | [FlowLauncher](./Flow-Launcher)                                  |
 | Window Tweaks      | Windhawk            | [Windhawk](./Windhawk/)                                          |
 | Window Tiling      | GlazeWM             | [GlazeWM](./GlazeWM/)                                            |
