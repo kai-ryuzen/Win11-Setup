@@ -21,6 +21,7 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 | System Tweak Suite | FSOS-X Dash Toolkit | [FSOS-X Dash Toolkit](./FSOS-X%20Dash%20Toolkit)                 |
 | Shorcuts           | whkd                | [whkd](./whkd/)                                                  |
 | Context Menu       | Nilesoft Shell      | [Nilesoft Shell](./Nilesoft%20Shell)                             |
+| Command-line       | nircmd              | [nircmd](https://www.nirsoft.net/utils/nircmd-x64.zip)           |
 ---
 ## Daily Essential Apps
 | Component           | Tool Name           | Official Website                                      |
