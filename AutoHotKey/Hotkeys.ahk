@@ -8,7 +8,7 @@
 !z::Run('nircmd exec hide "C:\Program Files\Nilesoft Shell\imports\FreeRam.bat"')
 !f::Run('nircmd win max foreground')
 !w::Run('ms-settings:network-wifi')
-!b::Run('ms-settings:connecteddevices')
+!b::Run('ms-settings:devices')
 
 ~LWin Up:: {
     if (A_PriorKey == "LWin") {
