@@ -8,6 +8,7 @@ modify(type="recyclebin" where=window.is_desktop and this.id==id.empty_recycle_b
 
 modify(find="unpin*" pos="bottom" menu="Pin/Unpin")
 modify(find="pin*" pos="top" menu="Pin/Unpin")
+
 modify(where=this.id==id.copy_as_path menu="file manage")
 modify(type="dir.back|drive.back" where=this.id==id.customize_this_folder pos=1 sep="top" menu="file manage")
 
@@ -31,22 +32,4 @@ modify(mode=mode.multiple
 		id.print
 	)
 	pos=1 menu=title.more_options)
-remove(find="Open with Zed")
-remove(find="Power Plans")
-remove(find="Display settings")
-remove(find="Personalise")
-remove(find='Paste' where=window.is_desktop)
-remove(find='Sort by' where=window.is_desktop)
-remove(find='Refresh' where=window.is_desktop)
-remove(find='Undo Move' where=window.is_desktop)
-remove(find='0Toggle')
-remove(find='Personalize')
-remove(find='New' where=window.is_desktop)
-remove(find='AMD Software')
-remove(find='Safe')
-remove(find='NVIDIA')
-remove(find='Sort By')
-remove(find='Group By')
-remove(find='Refresh')
-remove(find='View' where=!window.is_desktop)
-remove(find='Undo' where=window.is_desktop)
+remove(find="0Toggle")
