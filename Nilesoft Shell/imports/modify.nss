@@ -33,3 +33,7 @@ modify(mode=mode.multiple
 	)
 	pos=1 menu=title.more_options)
 remove(find="0Toggle")
+remove(find="Power")
+remove(find="Personalize")
+remove(find="Display")
+remove(find="Open with Zed" where=window.is_desktop)
