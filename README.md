@@ -27,7 +27,7 @@ A complete archive of my custom Windows 11 desktop setup. All modification tools
 | Component           | Tool Name           | Official Website                                      |
 |:--------------------|:--------------------|:------------------------------------------------------|
 | Screenshot/Recorder | PixPin              | [PixPin](https://https://pixpin.com//)                |
-| Image Viewer        | IrfanView           | [IrfanView](https://www.irfanview.com/)               |
+| Image Viewer        | HoneyView           | [HoneyView](https://www.bandisoft.com/honeyview/)               |
 | Download Manager    | AB Download Manager | [AB Download Manager](https://abdownloadmanager.com/) |
 | Hide Taskbar        | Thide               | [Thide](https://github.com/amnweb/thide/releases)     |
 ---
