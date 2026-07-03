@@ -1,0 +1,12 @@
+theme
+{
+	name="modern"
+	dark=true
+	background
+	{
+		color="#1e1e2e"
+		opacity=0
+		effect=2
+	}
+	image.align=2
+}
