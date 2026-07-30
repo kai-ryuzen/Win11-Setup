@@ -2,12 +2,111 @@ RenderingMod:
   ThemeBackground: 1
   SysColors: 1
   AccentColorControls: 0
-type: acrylicblur
-AccentBlurBehind: 3A1E1E2E
+BackgroundEffects:
+  type: acrylicblur
+  AccentBlurBehind: 3A232323
 FlyoutsEffects: 1
-ImmersiveDarkTitle: 1
-ExtendFrame: 1
+RuledPrograms:
+  - target: mspaint.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+    AccentBlurBehind: 3A232323
+    BorderColor:
+      ColorBorder: 0
+      RainbowBorder: 0
+      borderstyles_active: FF0000
+      borderstyles_inactive: 00FFFF
+    CornerOption: default
+    ExtendFrame: 0
+    ImmersiveDarkTitle: 0
+    RainbowSpeed: 1
+    TitlebarColor:
+      ColorTitlebar: 0
+      RainbowTitlebar: 0
+      titlerbarstyles_active: FF0000
+      titlerbarstyles_inactive: 00FFFF
+    TitlebarTextColor:
+      ColorTitlebarText: 0
+      RainbowTextColor: 0
+      titlerbarcolorstyles_active: FF0000
+      titlerbarcolorstyles_inactive: 00FFFF
+    type: none
+  - target: Honeyview.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: ABDownloadManager.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: WorkshopDL.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: vlc.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: ReShade_Setup_6.5.0.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: Wub_x64.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: C:\Games\Wub\Wub_x64.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: Wub.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+  - target: xampp-windows-x64-8.2.12-0-VS16-installer.exe
+    RenderingMod:
+      ThemeBackground: 0
+      AccentColorControls: 0
+    BackgroundEffects:
+      type: ''
+      AccentBlurBehind: ''
+AccentBlurBehind: 3A232323
+BorderColor:
+  ColorBorder: 0
+  RainbowBorder: 0
+  borderstyles_active: FF0000
+  borderstyles_inactive: 00FFFF
 CornerOption: default
+ExtendFrame: 1
+ImmersiveDarkTitle: 1
 RainbowSpeed: 1
 TitlebarColor:
   ColorTitlebar: 0
@@ -19,184 +118,4 @@ TitlebarTextColor:
   RainbowTextColor: 0
   titlerbarcolorstyles_active: FF0000
   titlerbarcolorstyles_inactive: 00FFFF
-BorderColor:
-  ColorBorder: 0
-  RainbowBorder: 0
-  borderstyles_active: FF0000
-  borderstyles_inactive: 00FFFF
-RuledPrograms:
-  - target: mspaint.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
-  - target: Dock_64.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
-  - target: zen.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
-  - target: vlc.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
-  - target: 7zG.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
-  - target: i_view64.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
-  - target: procexp64.exe
-    RenderingMod:
-      ThemeBackground: 0
-      AccentColorControls: 0
-    type: none
-    AccentBlurBehind: ''
-    ImmersiveDarkTitle: 0
-    ExtendFrame: 0
-    CornerOption: default
-    RainbowSpeed: 1
-    TitlebarColor:
-      ColorTitlebar: 0
-      RainbowTitlebar: 0
-      titlerbarstyles_active: FF0000
-      titlerbarstyles_inactive: 00FFFF
-    TitlebarTextColor:
-      ColorTitlebarText: 0
-      RainbowTextColor: 0
-      titlerbarcolorstyles_active: FF0000
-      titlerbarcolorstyles_inactive: 00FFFF
-    BorderColor:
-      ColorBorder: 0
-      RainbowBorder: 0
-      borderstyles_active: FF0000
-      borderstyles_inactive: 00FFFF
+type: acrylicblur
