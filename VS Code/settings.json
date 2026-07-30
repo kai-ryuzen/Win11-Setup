@@ -1,0 +1,112 @@
+{
+  // ==========================================
+  // 1. VISUAL CLEANUP (Removes White Lines & Clutter)
+  // ==========================================
+  "editor.renderWhitespace": "none", // Hides dots/arrows for spaces/tabs
+  "editor.cursorStyle": "line", // Ensures cursor is a vertical bar, not underline
+  "breadcrumbs.enabled": false, // Removes the file path bar above code
+  "editor.minimap.enabled": false, // Removes the code preview map (saves RAM)
+  "editor.glyphMargin": false, // Removes extra margin for debug icons
+  "editor.folding": true, // Keeps code folding arrows (set to false to hide)
+  "editor.lineNumbers": "on", // Standard line numbers
+  "workbench.editor.wrapTabs": false, // Prevents tabs from wrapping/doubling
+  "workbench.editor.showTabs": "multiple", // Ensures tabs are visible
+  "editor.scrollbar.vertical": "hidden", // Clean scrollbar
+  "editor.scrollbar.horizontal": "auto", // Keep status bar (set to false to hide)
+  "editor.lineHighlightBorder": null, // Removes the box around the current line (optional)
+  "editor.renderLineHighlight": "gutter", // Highlights only the line number, not the whole line
+  // ==========================================
+  // 2. PERFORMANCE & RAM SAVINGS
+  // ==========================================
+  "files.watcherExclude": {
+    "**/.git/objects/**": true,
+    "**/.git/subtree-cache/**": true,
+    "**/node_modules/**": true,
+    "**/dist/**": true,
+    "**/build/**": true,
+    "**/coverage/**": true,
+    "**/.vscode/**": true,
+    "**/venv/**": true,
+    "**/__pycache__/**": true
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/build": true,
+    "**/.git": true,
+    "**/coverage": true
+  },
+  "git.autorefresh": false, // Stops constant Git polling
+  "git.autofetch": false, // Disables auto-fetching
+  "typescript.tsserver.log": "off", // Disables TS logging
+  "editor.codeLens": false, // Removes "Run/Test" links above code
+  "editor.quickSuggestions": {
+    "other": true,
+    "comments": false,
+    "strings": false
+  },
+  // ==========================================
+  // 3. PRIVACY & TELEMETRY (Crucial for VSCodium)
+  // ==========================================
+  "telemetry.telemetryLevel": "off",
+  "telemetry.enableTelemetry": false,
+  "telemetry.enableCrashReporter": false,
+  "workbench.enableExperiments": false,
+  "extensions.ignoreRecommendations": true,
+  "extensions.autoUpdate": "off", // Manual updates only (saves bandwidth/CPU)
+  "extensions.autoCheckUpdates": false,
+  // ==========================================
+  // 4. WORKFLOW QUALITY OF LIFE
+  // ==========================================
+  "files.autoSave": "onFocusChange", // Saves when you click away
+  "editor.formatOnSave": true, // Auto-format on save
+  "editor.cursorSmoothCaretAnimation": "on", // Smooth cursor movement
+  "editor.fontLigatures": true, // Enables font ligatures (requires a ligature font)
+  "editor.fontSize": 14, // Comfortable default size
+  "editor.tabSize": 2, // Standard tab size
+  "editor.insertSpaces": true, // Use spaces instead of tabs
+  "files.trimTrailingWhitespace": true, // Auto-cleanup trailing spaces
+  "files.insertFinalNewline": true,
+  "workbench.colorTheme": "Catppuccin Mocha",
+  "workbench.iconTheme": "catppuccin-mocha",
+  "vscode_vibrancy.theme": "Catppuccin Mocha",
+  "vscode_vibrancy.type": "acrylic",
+  "workbench.colorCustomizations": {
+    "terminal.background": "#00000000",
+    "editorPane.background": "#1e1e2e00",
+    "editorGroupHeader.tabsBackground": "#1e1e2e00",
+    "editorGroupHeader.noTabsBackground": "#1e1e2e00",
+    "breadcrumb.background": "#1e1e2e00",
+    "editorGutter.background": "#1e1e2e00",
+    "panel.background": "#1e1e2e00",
+    "panelStickyScroll.background": "#1e1e2e00",
+    "tab.activeBackground": "#1e1e2e00",
+    "tab.unfocusedActiveBackground": "#1e1e2e00",
+    "sideBar.background": "#1e1e2ecc",
+    "sideBarTitle.background": "#1e1e2ecc",
+    "sideBarStickyScroll.background": "#1e1e2ecc",
+    "activityBar.background": "#1e1e2ecc",
+    "editor.background": "#1e1e2ecc",
+    "editorStickyScroll.background": "#1e1e2ecc",
+    "editorStickyScrollGutter.background": "#1e1e2ecc",
+    "tab.inactiveBackground": "#1e1e2ecc",
+    "tab.unfocusedInactiveBackground": "#1e1e2ecc",
+    "inlineChat.background": "#1e1e2ee6",
+    "editorWidget.background": "#1e1e2ee6",
+    "editorHoverWidget.background": "#1e1e2ee6",
+    "editorSuggestWidget.background": "#1e1e2ee6",
+    "notifications.background": "#1e1e2ee6",
+    "notificationCenterHeader.background": "#1e1e2ee6",
+    "menu.background": "#1e1e2ee6",
+    "quickInput.background": "#1e1e2ee6",
+  },
+  "terminal.integrated.gpuAcceleration": "off",
+  "window.systemColorTheme": "dark",
+  "window.autoDetectColorScheme": false,
+  "window.controlsStyle": "custom",
+  "workbench.activityBar.location": "top",
+  "editor.scrollbar.verticalScrollbarSize": 0,
+  "workbench.sideBar.location": "right",
+  "workbench.productIconTheme": "bongocat",
+  "vscode-pets.theme": "forest",
+}
