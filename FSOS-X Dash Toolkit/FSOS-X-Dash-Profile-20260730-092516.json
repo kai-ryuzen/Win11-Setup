@@ -1,0 +1,551 @@
+{
+  "Version": 3,
+  "ExportedAt": "2026-07-30T03:55:08.2719572Z",
+  "AppVersion": "1.2.0.0",
+  "Settings": {
+    "StartWithWindows": false,
+    "CheckForUpdatesOnStartup": true
+  },
+  "GameMode": {
+    "steam:1787090": {
+      "BoostGamePriority": true,
+      "GamePriority": 2,
+      "GameIoPriority": 3,
+      "AffinityMode": 0,
+      "CustomAffinityMask": 0,
+      "LowerOtherProcesses": true,
+      "SuspendBackgroundApps": false,
+      "ProBalanceSystemCpuTrigger": 10,
+      "ProBalanceProcessCpuTrigger": 7,
+      "ProBalanceProcessCpuRestore": 3,
+      "ProBalanceTimeOverQuotaMs": 900,
+      "ProBalanceMinAdjustMs": 4200,
+      "ProBalanceMaxAdjustMs": 0,
+      "PauseNonEssentialServices": false,
+      "KillExplorer": false,
+      "EnableLoadLatencyReduction": false,
+      "PinPowerState": true,
+      "ClearStandbyMemory": false,
+      "CloseDashAfterLaunch": true
+    },
+    "manual:c:\\games\\euro.truck.simulator.2.v1.60.1.7s-p2p\\bin\\win_x64\\eurotrucks2.exe": {
+      "BoostGamePriority": true,
+      "GamePriority": 2,
+      "GameIoPriority": 3,
+      "AffinityMode": 0,
+      "CustomAffinityMask": 0,
+      "LowerOtherProcesses": true,
+      "SuspendBackgroundApps": false,
+      "ProBalanceSystemCpuTrigger": 10,
+      "ProBalanceProcessCpuTrigger": 7,
+      "ProBalanceProcessCpuRestore": 3,
+      "ProBalanceTimeOverQuotaMs": 900,
+      "ProBalanceMinAdjustMs": 4200,
+      "ProBalanceMaxAdjustMs": 0,
+      "PauseNonEssentialServices": true,
+      "KillExplorer": false,
+      "EnableLoadLatencyReduction": false,
+      "PinPowerState": true,
+      "ClearStandbyMemory": false,
+      "CloseDashAfterLaunch": true
+    }
+  },
+  "ShaderCacheSchedule": {
+    "Frequency": "None",
+    "Hour": 3,
+    "Minute": 0
+  },
+  "Toggles": [
+    {
+      "Id": "wifi",
+      "Title": "Wi-Fi",
+      "State": "Enabled"
+    },
+    {
+      "Id": "bluetooth",
+      "Title": "Bluetooth",
+      "State": "Enabled"
+    },
+    {
+      "Id": "printing",
+      "Title": "Printing",
+      "State": "Disabled"
+    },
+    {
+      "Id": "location",
+      "Title": "Location",
+      "State": "Disabled"
+    },
+    {
+      "Id": "phonelink",
+      "Title": "Phone Link",
+      "State": "Disabled"
+    },
+    {
+      "Id": "storagesense",
+      "Title": "Storage Sense",
+      "State": "Disabled"
+    },
+    {
+      "Id": "auto-driver-updates",
+      "Title": "Automatic Driver Updates",
+      "State": "Disabled"
+    },
+    {
+      "Id": "energyrecs",
+      "Title": "Energy Recommendations",
+      "State": "Disabled"
+    },
+    {
+      "Id": "bgapps",
+      "Title": "Background Apps",
+      "State": "Disabled"
+    },
+    {
+      "Id": "core-isolation",
+      "Title": "Core Isolation",
+      "State": "Disabled"
+    },
+    {
+      "Id": "vbs",
+      "Title": "Virtualization-Based Security",
+      "State": "Disabled"
+    },
+    {
+      "Id": "hyper-v",
+      "Title": "Hyper-V",
+      "State": "Disabled"
+    },
+    {
+      "Id": "cpu-mitigations",
+      "Title": "CPU mitigations",
+      "State": "Enabled"
+    },
+    {
+      "Id": "vulnerable-driver-blocklist",
+      "Title": "Vulnerable Driver Blocklist",
+      "State": "Enabled"
+    },
+    {
+      "Id": "uac",
+      "Title": "User Account Control",
+      "State": "Enabled"
+    },
+    {
+      "Id": "smart-screen",
+      "Title": "SmartScreen",
+      "State": "Enabled"
+    },
+    {
+      "Id": "control-flow-guard",
+      "Title": "Control Flow Guard",
+      "State": "Enabled"
+    },
+    {
+      "Id": "hags",
+      "Title": "HAGS",
+      "State": "Enabled"
+    },
+    {
+      "Id": "variable-refresh-rate",
+      "Title": "Variable Refresh Rate",
+      "State": "Disabled"
+    },
+    {
+      "Id": "fullscreen-optimizations",
+      "Title": "Fullscreen Optimizations",
+      "State": "Enabled"
+    },
+    {
+      "Id": "game-bar",
+      "Title": "Xbox Game Bar",
+      "State": "Disabled"
+    },
+    {
+      "Id": "fault-tolerant-heap",
+      "Title": "Fault Tolerant Heap",
+      "State": "Disabled"
+    },
+    {
+      "Id": "mouse-acceleration",
+      "Title": "Mouse Acceleration",
+      "State": "Disabled"
+    },
+    {
+      "Id": "menu-delay",
+      "Title": "Snappy Menus",
+      "State": "Enabled"
+    },
+    {
+      "Id": "legacy-context-menu",
+      "Title": "Legacy Context Menu",
+      "State": "Enabled"
+    },
+    {
+      "Id": "explorer-launch-target",
+      "Title": "Open Explorer to This PC",
+      "State": "Enabled"
+    },
+    {
+      "Id": "long-paths",
+      "Title": "Long File Paths",
+      "State": "Enabled"
+    },
+    {
+      "Id": "ntfs-last-access",
+      "Title": "NTFS Last-Access Updates",
+      "State": "Disabled"
+    },
+    {
+      "Id": "auto-maintenance",
+      "Title": "Automatic Maintenance",
+      "State": "Disabled"
+    },
+    {
+      "Id": "auto-reboot-crash",
+      "Title": "Auto-reboot After BSOD",
+      "State": "Disabled"
+    },
+    {
+      "Id": "llmnr",
+      "Title": "LLMNR",
+      "State": "Disabled"
+    },
+    {
+      "Id": "hibernation",
+      "Title": "Hibernation",
+      "State": "Disabled"
+    },
+    {
+      "Id": "foreground-boost",
+      "Title": "Foreground App Boost",
+      "State": "Enabled",
+      "SelectedChoice": "38"
+    },
+    {
+      "Id": "windows-game-mode",
+      "Title": "Windows Game Mode",
+      "State": "Enabled"
+    },
+    {
+      "Id": "tdr-delay",
+      "Title": "Extended GPU Timeout",
+      "State": "Enabled"
+    },
+    {
+      "Id": "network-throttling",
+      "Title": "Network Throttling Index",
+      "State": "Disabled"
+    },
+    {
+      "Id": "nagle-algorithm",
+      "Title": "Nagle Algorithm",
+      "State": "PartiallyEnabled"
+    },
+    {
+      "Id": "sysmain",
+      "Title": "SysMain",
+      "State": "Enabled"
+    },
+    {
+      "Id": "multiplane-overlay",
+      "Title": "Multiplane Overlay",
+      "State": "Enabled"
+    },
+    {
+      "Id": "ndu-service",
+      "Title": "Network Data Usage",
+      "State": "Disabled"
+    },
+    {
+      "Id": "netbios",
+      "Title": "NetBIOS over TCP/IP",
+      "State": "Enabled"
+    },
+    {
+      "Id": "tcp-ack-frequency",
+      "Title": "TCP ACK Frequency",
+      "State": "Disabled"
+    },
+    {
+      "Id": "delivery-optimization-p2p",
+      "Title": "Update Delivery Optimization (P2P)",
+      "State": "Disabled"
+    },
+    {
+      "Id": "nic-interrupt-moderation",
+      "Title": "Interrupt Moderation",
+      "State": "Enabled"
+    },
+    {
+      "Id": "nic-eee",
+      "Title": "Energy Efficient Ethernet",
+      "State": "Disabled"
+    },
+    {
+      "Id": "nic-lso",
+      "Title": "Large Send Offload",
+      "State": "Disabled"
+    },
+    {
+      "Id": "tcpip-task-offload",
+      "Title": "TCP/IP Task Offload",
+      "State": "Enabled"
+    },
+    {
+      "Id": "power-saving",
+      "Title": "Power Saving",
+      "State": "Enabled"
+    },
+    {
+      "Id": "tcp-rsc",
+      "Title": "TCP Receive Segment Coalescing",
+      "State": "Enabled"
+    },
+    {
+      "Id": "qos-reserved-bandwidth",
+      "Title": "QoS Reserved Bandwidth",
+      "State": "Enabled"
+    },
+    {
+      "Id": "global-timer-resolution",
+      "Title": "Global Timer Resolution",
+      "State": "Disabled"
+    },
+    {
+      "Id": "kernel-paging-executive",
+      "Title": "Kernel Paging Executive",
+      "State": "Enabled"
+    },
+    {
+      "Id": "animations",
+      "Title": "Animations",
+      "State": "Disabled"
+    },
+    {
+      "Id": "transparency",
+      "Title": "Transparency Effects",
+      "State": "Enabled"
+    },
+    {
+      "Id": "system-restore",
+      "Title": "System Restore",
+      "State": "Enabled"
+    },
+    {
+      "Id": "hotspot",
+      "Title": "Mobile Hotspot",
+      "State": "Disabled"
+    },
+    {
+      "Id": "windows-update",
+      "Title": "Windows Update",
+      "State": "Disabled"
+    },
+    {
+      "Id": "dynamic-lighting",
+      "Title": "Dynamic Lighting",
+      "State": "Disabled"
+    },
+    {
+      "Id": "telemetry",
+      "Title": "Windows Telemetry",
+      "State": "Disabled"
+    },
+    {
+      "Id": "sticky-keys",
+      "Title": "Sticky Keys Shortcut",
+      "State": "Disabled"
+    },
+    {
+      "Id": "activity-history",
+      "Title": "Activity History",
+      "State": "Disabled"
+    },
+    {
+      "Id": "consumer-features",
+      "Title": "Consumer Features",
+      "State": "Disabled"
+    },
+    {
+      "Id": "show-file-extensions",
+      "Title": "Show File Extensions",
+      "State": "Enabled"
+    },
+    {
+      "Id": "show-hidden-files",
+      "Title": "Show Hidden Files",
+      "State": "Enabled"
+    },
+    {
+      "Id": "center-taskbar",
+      "Title": "Center Taskbar Icons",
+      "State": "Enabled"
+    },
+    {
+      "Id": "modern-standby-fix",
+      "Title": "Modern Standby Fix",
+      "State": "Disabled"
+    },
+    {
+      "Id": "dark-theme",
+      "Title": "Dark Theme",
+      "State": "Enabled"
+    },
+    {
+      "Id": "end-task-right-click",
+      "Title": "End Task on Taskbar Right-Click",
+      "State": "Enabled"
+    },
+    {
+      "Id": "auto-defrag",
+      "Title": "Scheduled Defrag / TRIM",
+      "State": "Enabled"
+    },
+    {
+      "Id": "memory-compression",
+      "Title": "Memory Compression",
+      "State": "Enabled"
+    },
+    {
+      "Id": "fast-send-datagram-threshold",
+      "Title": "Fast UDP Datagram Send",
+      "State": "Enabled"
+    }
+  ],
+  "PowerPlan": {
+    "ResourceFileName": "FSOSAMD.pow",
+    "DisplayName": "FSOS AMD Gaming",
+    "Category": "FrameSync"
+  },
+  "Services": [
+    {
+      "Name": "DiagTrack",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "dmwappushservice",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "diagsvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "troubleshootingsvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "WerSvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "wercplsupport",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "PcaSvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "InventorySvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "XblAuthManager",
+      "Choice": "Manual"
+    },
+    {
+      "Name": "XblGameSave",
+      "Choice": "Manual"
+    },
+    {
+      "Name": "XboxNetApiSvc",
+      "Choice": "Manual"
+    },
+    {
+      "Name": "BcastDVRUserService",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "RemoteRegistry",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "RemoteAccess",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "lmhosts",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "WMPNetworkSvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "MapsBroker",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "SCardSvr",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "ScDeviceEnum",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "SEMgrSvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "WpnService",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "TrkWks",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "EFS",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "WPCMonSvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "Wecsvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "shpamsvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "svsvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "wisvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "DevQueryBroker",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "PimIndexMaintenanceSvc",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "MessagingService",
+      "Choice": "Disabled"
+    },
+    {
+      "Name": "RetailDemo",
+      "Choice": "Disabled"
+    }
+  ]
+}
