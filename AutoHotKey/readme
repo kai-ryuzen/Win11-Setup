@@ -1,0 +1,4 @@
+File should be in c:\Scripts\Main.ahk ---location
+Run this command to schedule task: 
+schtasks /create /tn "MainAHK" /tr "C:\Scripts\Main.ahk" /sc onlogon /rl highest 
+
