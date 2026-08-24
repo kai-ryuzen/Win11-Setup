@@ -1,4 +1,4 @@
-﻿#Requires AutoHotkey v2.0
+#Requires AutoHotkey v2.0
 #SingleInstance Force
 #NoTrayIcon
 #Warn All
@@ -22,7 +22,10 @@ DetectHiddenWindows(True)
 
 !t:: Run('wt.exe')
 !r:: Run("shell:::{2559a1f3-21d7-11d4-bdaf-00c04f60b9f0}")
-!d:: Run("C:\Program Files (x86)\Steam\steamapps\common\MyDockFinder\Mydock.exe")
+!d:: Run('"C:\Program Files (x86)\Steam\steamapps\common\MyDockFinder\Dock_64.exe"')
+!c:: Run('C:\Scripts\connectWarp.bat')
+^!c:: Run('C:\Scripts\KillWarp.bat')
+
 
 ; ==============================================================================
 ; 3. STAGE MANAGER COMPATIBLE FILE EXPLORER RESETTER (from explorer_script.ahk)
@@ -103,82 +106,5 @@ DetectHiddenWindows(True)
     SendInput("^{F12}")
     return
 }
-
-; ==============================================================================
-; NATIVE CLOUDFLARE WARP TOGGLE (100% Silent - No Black Flashes)
-; ==============================================================================
-!c:: {
-    ServiceName := "CloudflareWARP"
-
-    ; Global helper to run terminal commands completely invisible in the RAM cache
-    RunCmdSilent(command) {
-        try {
-            shell := ComObject("WScript.Shell")
-            exec := shell.Exec(command)
-            return exec.StdOut.ReadAll() . exec.StdErr.ReadAll()
-        }
-        return ""
-    }
-
-    ; Helper function to query the dynamic warp-cli text state
-    GetWarpState() {
-        output := RunCmdSilent("warp-cli status")
-        if InStr(output, "Status update: Connected")
-            return "Connected"
-        if InStr(output, "Status update: Disconnected")
-            return "Disconnected"
-        if InStr(output, "Unable to connect")
-            return "Stopped"
-        return "Unknown"
-    }
-
-    ; Helper function to monitor the core Windows service status
-    WaitServiceState(desiredState) {
-        loop 40 { ; Timeout after 10 seconds max
-            output := RunCmdSilent("sc query " ServiceName)
-            if InStr(output, desiredState)
-                return true
-            Sleep(250)
-        }
-        return false
-    }
-
-    ; --- MAIN SWITCH LOGIC ---
-    currentState := GetWarpState()
-
-    if (currentState == "Connected") {
-        ; --- DISCONNECT SEQUENCE ---
-        RunCmdSilent("warp-cli disconnect")
-
-        ; Loop up to 20 times (max 5 seconds) waiting for disconnect confirmation
-        loop 20 {
-            if (GetWarpState() == "Disconnected")
-                break
-            Sleep(250)
-        }
-
-        ; Force-stop the Windows Service completely to save memory
-        RunCmdSilent("sc stop " ServiceName)
-        WaitServiceState("STOPPED")
-    }
-    else {
-        ; --- CONNECT SEQUENCE ---
-        ; Start the Windows Service natively
-        RunCmdSilent("sc start " ServiceName)
-        if (!WaitServiceState("RUNNING"))
-            return
-
-        ; Wait for the warp daemon engine to stabilize past "Stopped"
-        loop 20 {
-            if (GetWarpState() != "Stopped")
-                break
-            Sleep(500)
-        }
-
-        ; Signal the client routing engine to activate
-        RunCmdSilent("warp-cli connect")
-    }
-}
-
 ; --- GLOBAL SCRIPT RELOAD ---
 ^!r:: Reload()
